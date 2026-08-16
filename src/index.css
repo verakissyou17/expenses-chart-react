@@ -29,8 +29,7 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: clamp(21.875rem, 18.574rem + 14.085vw, 31.25rem);
+  width: clamp(22rem, 17.423rem + 19.531vw, 35rem);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -45,7 +44,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: clamp(1rem, 0.824rem + 0.751vw, 1.5rem);
 }
 
 .header-section h1 {
@@ -72,7 +71,7 @@ body {
   background-color: var(--white);
   width: 100%;
   height: 100%;
-  padding: 1.5rem;
+  padding: clamp(1rem, 0.824rem + 0.751vw, 1.5rem);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,7 +90,7 @@ body {
   align-items: flex-end;
   justify-content: space-between;
   width: 100%;
-  height: 12rem;
+  height: clamp(12rem, 9.183rem + 12.019vw, 20rem);
   border-bottom: 2px solid var(--alpha-brown-400);
   margin-bottom: 1rem;
   padding-bottom: 2rem;
@@ -115,7 +114,7 @@ body {
   font-size: 0.7rem;
   display: grid;
   place-content: center;
-  width: 3rem;
+  width: clamp(2rem, 1.472rem + 2.254vw, 3.5rem);
 }
 
 .bar-box .day {
@@ -123,8 +122,7 @@ body {
 }
 
 .bar {
-  width: 2.2rem;
-  height: 0;
+  width: clamp(2rem, 1.472rem + 2.254vw, 3.5rem);
   border-radius: 0.25rem;
   background-color: var(--red-500);
 }
@@ -174,7 +172,7 @@ body {
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .attribution a {
   color: var(--red-500);

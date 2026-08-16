@@ -51,7 +51,7 @@ function App() {
                   <span
                     className={index === 2 ? "bar blue" : "bar"}
                     style={{
-                      height: `${info.amount * 2}px`,
+                      height: `${info.amount}%`,
                       filter: hovered === index ? "brightness(125%)" : "brightness(100%)",
                     }}
                     onMouseEnter={() => setHovered(index)}
