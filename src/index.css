@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  width: clamp(22rem, 17.423rem + 19.531vw, 35rem);
+  width: clamp(22rem, 15.662rem + 27.042vw, 40rem);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
