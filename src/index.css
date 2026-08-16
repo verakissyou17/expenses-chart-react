@@ -44,7 +44,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: clamp(1rem, 0.824rem + 0.751vw, 1.5rem);
+  padding: clamp(1rem, 0.648rem + 1.502vw, 2rem);
 }
 
 .header-section h1 {
@@ -71,7 +71,7 @@ body {
   background-color: var(--white);
   width: 100%;
   height: 100%;
-  padding: clamp(1rem, 0.824rem + 0.751vw, 1.5rem);
+  padding: clamp(1rem, 0.648rem + 1.502vw, 2rem);
   display: flex;
   flex-direction: column;
   align-items: center;
