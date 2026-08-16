@@ -40,7 +40,7 @@ body {
 .header {
   background-color: var(--red-500);
   width: 100%;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,7 +76,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .main h2 {
@@ -106,15 +106,16 @@ body {
 }
 
 .tooltip {
-  background-color: var(--black);
+  width: max-content;
+  min-width: 3rem;
+  padding: 0.35rem 0.4rem;
   border-radius: 0.25rem;
+  background-color: var(--brown-950);
   color: var(--white);
-  padding: 0.25rem;
-  visibility: hidden;
   font-size: 0.7rem;
-  display: grid;
-  place-content: center;
-  width: clamp(2rem, 1.472rem + 2.254vw, 3.5rem);
+  font-weight: 700;
+  text-align: center;
+  visibility: hidden;
 }
 
 .bar-box .day {
@@ -123,7 +124,7 @@ body {
 
 .bar {
   width: clamp(2rem, 1.472rem + 2.254vw, 3.5rem);
-  border-radius: 0.25rem;
+  border-radius: 0.35rem;
   background-color: var(--red-500);
 }
 
