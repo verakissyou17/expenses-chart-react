@@ -128,7 +128,7 @@ body {
   background-color: var(--red-500);
 }
 
-.bars-container .bar-box:nth-child(3) .bar {
+.bar.blue {
   background-color: var(--blue-300);
 }
 

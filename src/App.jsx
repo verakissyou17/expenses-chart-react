@@ -49,7 +49,7 @@ function App() {
                     ${info.amount}
                   </div>
                   <span
-                    className="bar"
+                    className={index === 2 ? "bar blue" : "bar"}
                     style={{
                       height: `${info.amount * 2}px`,
                       filter: hovered === index ? "brightness(125%)" : "brightness(100%)",
