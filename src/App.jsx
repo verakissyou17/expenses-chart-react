@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("./data.json");
+        const response = await fetch("/data.json");
 
         if (!response.ok) {
           throw new Error("Couldn't fetch the data");
